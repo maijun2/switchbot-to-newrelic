@@ -1,5 +1,5 @@
 # これは何？
-Switchbot の温度計で管理している各種情報を NewRelic 管理すべくサクッと書いたPythonコード類です
+Switchbot の温度計で管理している各種情報を NewRelic で管理すべくサクッと書いたPythonコード類です
 
 ## 構成
 getdevice-switchbot.py
@@ -11,3 +11,6 @@ getstatus-switchbot.py
 
 status-to-newleric
 - Switchbot 温度計で管理している温度・湿度の情報をNewRelic へ送信します。
+
+status-to-newleric-lambda.py
+- 最終的にLambdaで動作させるコードになります。
